@@ -9,3 +9,4 @@ $("#login").click(function(){
 $("#places1").click(function(){
     $("#list").slideToggle();
 });
+

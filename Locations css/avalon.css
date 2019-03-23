@@ -1,0 +1,41 @@
+#avalonBody{
+  
+}
+
+#avalonbeach {
+        height: 500px;
+        width: 50%;
+      }
+
+ html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+ #info{
+ 	width: 50%;
+ }
+
+ #container1{
+ 	display: flex;
+ 	flex-direction: row;
+ 	padding:15px;
+ }
+
+ .pictures{
+ 	display: flex;
+ 	width: 400px;
+ 	height:350px;
+
+ }
+ 
+ #container2{
+     display:flex;
+     justify-content:space-around;
+     margin:30px;
+ }
+ 
+ #backHomeButton{
+     padding:10px;
+ }

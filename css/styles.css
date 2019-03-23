@@ -6,9 +6,7 @@ h1 {
     display: flex;
     align-items: center;
     color: white;
-    background-color: black;
 }
-
 .name {
     margin-top: 10px;
 }
@@ -144,15 +142,27 @@ body{
 .hvrbox-layer_bottom{
     color:white;
 }
+.mission {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.M {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
 
 #mainleft{
     color:white;
     margin:40px;
 }
 
-#mission{
-    margin:40px;
-}
+
 
 #main-page{
      /* The image used */
@@ -186,11 +196,11 @@ body{
 }
 
 li{
-    color:white;
+    color:#b8f9ae;
 }
 
 button{
-    background-color:#e2635a;
+    background-color:#b8f9ae;
 }
 
 button > a{
@@ -199,4 +209,73 @@ button > a{
 
 #nameOfTeam{ 
  font-family: 'EB Garamond';
+ color: white;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 400px;
+    justify-content: flex-start;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    color: white;
+    padding: 100px;
+}
+
+
+..imgs {
+    display:flex;
+    justify-content: flex-end;
+    padding: 100px;
+}} 
+
+
+.P{
+    width: 150px;
+    height: 150px;
+    }
+
+#info > p{
+    color: darkgray;
+    font-size: 14px;
+}
+
+a{ 
+    color: white;
+}
+.fonts{ 
+    font-family: 'EB Garamond';
+   /* display: flex;*/
+    justify-content: CENTER;
+    color:white;
+
+}
+
+.imgs {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    margin-top: 130px;
+    width: 200px;
+}
+
+.imgs > img {
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+#teamName1{
+    color:#b8f9ae;
+    font-family: 'Jacques Francois Shadow', cursive;
+    font-size:50px;
+}
+
+#wrapper {
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    width: 50%;
 }
