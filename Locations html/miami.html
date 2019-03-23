@@ -3,24 +3,61 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../Locations css/miami.css"></script>
 	<title>Miami Cleanup Crew</title>
+	<style>
+	    body {
+	        background-color: #b8f9ae;
+	    }
+	    
+	    #info {
+	        font-size: 20px;
+	        color: black;
+	    }
+	    #volunteerButtons1{
+	        display:flex;
+	        justify-content:space-around;
+	    }
+	    
+	    #nav {
+    border: solid black 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+
+    a{
+     color:#b8f9ae;   
+    }
+	</style>
 </head>
 <body id="miamiBody">
+    <div id="nav">
+        <a href='../about.html'><p>About</p></a>
+        <a href='../homePage.html'><p>Homepage</p></a>
+    </div>
 <div id="container1">
 <p id="info"> 
-    Coney Island is one location in NYC that needs help being cleaned up, lots of trash have been thrown onto the sand rather than
-    in the trash cans. We need volunteers! If you would like to see the location of the beach, refer to the map on the right. If you would like some
+    Miami Beach is one location in Florida that needs help being cleaned up, lots of trash have been thrown onto the sand rather than
+    in the trash cans over spring break. We need volunteers! If you would like to see the location of the beach, refer to the map on the right. If you would like some
     images of the beaches current state refer to the images below! 
 </p>
 
 <div id="miamibeach">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../js/Locations js/miami.js">
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqRnhcvAb0F-dZ4g4yV7AkLxlWE2hjxNc
 &callback=miamiMap"
     async defer></script>
     </div>
-
     </div>
+    
+    <div id="volunteerButtons1">
+        <button id="volunteer">Volunteer Now</button>    
+        <button id="alertClean">Alert the Area you helped clean</button>
+    </div>
+    
 <div id="container2">
 	<img class="pictures" src="../assets/picture4.png">
 	<!-- <img class="pictures" src="assets/picture2.png"> -->

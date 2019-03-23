@@ -3,7 +3,7 @@
  var miamiMap;
 function miamiMap() {
         miamiMap = new google.maps.Map(document.getElementById('miamibeach'), {
-          center: {lat: 25.7617, lng: -80.1918},
+          center: {lat: 25.7907, lng: -80.1300},
           zoom: 16
         });
       }
