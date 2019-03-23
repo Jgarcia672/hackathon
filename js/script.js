@@ -2,7 +2,10 @@
 
 console.log('hi');
 
-$('h1').click(function(){
-    $('h1').css('color', 'green');
-    $('h1').text('Ready to Code');
+$("#login").click(function(){
+   alert("hello"); 
+});
+
+$("#places1").click(function(){
+    $("#list").slideToggle();
 });

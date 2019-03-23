@@ -1,12 +1,16 @@
 h1 {
-  color: fuchsia;
+  color:black;
 }
 #nav {
     border: solid black 2px;
     display: flex;
-    justify-content: space-around;
-    background-color: black;
+    align-items: center;
     color: white;
+    background-color: black;
+}
+
+.name {
+    margin-top: 10px;
 }
 
 #mainleft {
@@ -46,7 +50,7 @@ h1 {
     width: 100%;
     height: 200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
 }
 
@@ -125,7 +129,7 @@ h1 {
 
 body{ 
   /* The image used */
-  background-image: url("https://i.pinimg.com/originals/88/0f/7e/880f7ed2b69a6b433bc7f010206c3ad5.gif");
+  background-image: url("https://media.giphy.com/media/3oz8xBgi2syJQiMJAQ/giphy.gif");
 
   /* Full height */
   height: 100%; 
@@ -139,4 +143,60 @@ body{
 
 .hvrbox-layer_bottom{
     color:white;
+}
+
+#mainleft{
+    color:white;
+    margin:40px;
+}
+
+#mission{
+    margin:40px;
+}
+
+#main-page{
+     /* The image used */
+  background-image: url("https://media.giphy.com/media/3oz8xBgi2syJQiMJAQ/giphy.gif");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#teamName{
+    display:flex;
+    justify-content:center;
+    margin:13%;
+}
+#nameOfTeam{
+    font-family: 'Rye', cursive;
+    font-size:50px;
+}
+#list{
+    display:none;
+}
+#buttons{
+    display:flex;
+    justify-content:space-around;
+}
+
+li{
+    color:white;
+}
+
+button{
+    background-color:#e2635a;
+}
+
+button > a{
+    color:black;
+}
+
+#nameOfTeam{ 
+ font-family: 'EB Garamond';
 }
